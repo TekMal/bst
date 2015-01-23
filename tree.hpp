@@ -2,7 +2,6 @@
 #define __TREE_HPP_
 
 #include <iostream>
-#include <cstdlib>
 
 using namespace std;
 
