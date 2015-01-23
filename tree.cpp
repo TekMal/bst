@@ -124,6 +124,7 @@ node * BST::Remove_node(node * x)
      z -> right = x -> right;
      if(z -> right)
          z -> right -> parent = z;
+     Lnode++;
   }
   else 
      z = (x -> left) ? x -> left : x -> right;
