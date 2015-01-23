@@ -14,7 +14,6 @@ int main(void)
     
       if((choice < 0) || (choice > 8)){
          cout << endl << "bledny wybor!\n";
-         system("pause");
      }
 
      cout << endl;
